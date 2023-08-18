@@ -1,6 +1,6 @@
 # Desafio Node.js da Rocketseat 🚀
 
-Bem-vindo ao meu projeto do Desafio Node.js do curso da Rocketseat! Neste projeto, eu criei uma API simples para gerenciar tarefas (todos) de usuários. Utilizei o Express.js para construir a API e o Supertest para escrever testes automatizados.
+Bem-vindo ao meu projeto do Desafio Node.js do curso da Rocketseat! Neste projeto, eu desenvolvi middlewares simples que garantiram que todos os testes automatizados fossem bem sucedidos.
 
 ## Funcionalidades
 
@@ -14,12 +14,20 @@ Bem-vindo ao meu projeto do Desafio Node.js do curso da Rocketseat! Neste projet
 ## Como executar
 
 1. Clone este repositório.
-2. Instale as dependências usando `npm install`.
-3. Execute o servidor local com `npm start`.
+2. Instale as dependências usando `yarn install`.
+3. Execute o servidor local com `yarn dev`.
 
 ## Testes automatizados
 
 Para rodar os testes automatizados, execute o seguinte comando:
 
 ```sh
-npm test
+yarn test
+
+```
+
+## Tecnologias utilizadas
+- Node.js
+- Express.js
+- UUID para geração de IDs únicos
+- Supertest para testes automatizados
